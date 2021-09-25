@@ -4,13 +4,13 @@ using namespace std;
 int main (){
 int x, value;
 cin >> x;             // Definir o valor que vai ser a tabuada 
-for (int i = 1; i <= 10; i++){
+  for (int i = 1; i <= 10; i++){
   value = x*i;
   cout << x << " * " << i << " = " << value << endl;
-}
+  }
 }
 
-Se a entrada em x for igual 5, temos:
+/* Se a entrada em x for igual 5, temos:
 in:
 5
 out; 
@@ -24,3 +24,4 @@ out;
 5 * 8 = 40
 5 * 9 = 45
 5 * 10 = 50
+*/
