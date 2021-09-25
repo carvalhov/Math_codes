@@ -15,7 +15,7 @@ int f(int x){ // factorial function
     }
     else{ // recursion
         return x * f(x-1); 
-    } // Essa função vai ser repitida, até que se tenha um f(1-1), tal f(0) = 1 
+    } // Essa função vai ser repetida, até que se tenha um f(1-1), tal f(0) = 1 
 
 }
 int main(){
